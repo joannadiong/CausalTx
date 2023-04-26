@@ -16,17 +16,17 @@ We hope to expand the material over time.
 
 ## Noticeboard
 
-__Updated: 22 Mar 2023__
+__Updated: 26 Apr 2023__
 
 
-Journal clubs will be held on the last Wednesday of the month.
+Journal clubs will be held on the last Wed/Thu of the month. Next session:
 
-Date: 26 Apr 2023 \
+Date: 1 Jun 2023 \
 Time: 12 PM AEST \
 Zoom link: [https://uni-sydney.zoom.us/j/81357734627](https://uni-sydney.zoom.us/j/81357734627) \
 Meeting ID: 813 5773 4627 
 
-Paper: Hernán MA. The C-Word: scientific euphemisms do not improve causal inference from observational data. American Journal of Public Health 2018;108(5):616-9.
+Paper: Lipsky AM, Greenland S. Causal directed acyclic graphs. JAMA 2022;327(11):1083-4.
 
 
 ## Contact

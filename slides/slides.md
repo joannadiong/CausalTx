@@ -7,9 +7,10 @@ fontsize: 10pt
 
 # Paper 1. Hernán MA. The C-Word: scientific euphemisms do not improve causal inference from observational data.
 
-_Summary._
+"The proscription against the C[ausal]-word is harmful to science because causal inference is a core task of science [in many instances],
+regardless of whether the study is randomized or non-randomized."
 
-Examples of research questions: 
+How a research question is asked reflects its aim:
 
 1) Do the sorts of people who drink a glass of red wine daily have lower risk of heart disease?
 2) Does drinking a glass of red wine daily lower the risk of heart disease?
@@ -19,24 +20,24 @@ Q2 is interested in causation.
 
 # Paper 1.
 
-Being explicit about scientific aims to quantify causal effects, even when using observational data,
+Being explicit about scientific aims, even when using observational data,
 improves study design by helping to
 
-* specify an exact research question (e.g. exposure, dose, frequency, population, etc.)
+* specify the exact causal effect of a research question (e.g. exposure, dose, frequency, population, etc.), which guides the analysis
 * better adjust for confounding, the distorted association between variables, using subject-matter knowledge and a plausible causal structure
 
-Even if there's no guarantee a causal model is correctly specified,
-it's only possible to have an informed scientific discussion by being explicit that the research aim is causal.
+Even if there's no guarantee a causal model includes all confounders,
+"we can [only] have an informed scientific discussion ... if we first acknowledge the causal goal of the analysis."
 
 # Discussion
 
 Comments or clarifications?
 
-Discussion:
+Does anyone disagree with Hernán (e.g. do you think using 'association'/'correlation'/'link' words are better)? Why?
 
-1. Does anyone disagree with Hernán (e.g. do you think using 'association'/'correlation'/'link' words are better)? Why?
-2. How are RCTs imperfect, and how are these limitations overcome?
-3. How else are observational data limited at allowing causal inference? Do these problems only affect observational studies?
+How are RCTs imperfect, and how are these limitations overcome?
+
+How else are observational data limited at allowing causal inference? Do these problems only affect observational studies?
 
 <!--
 # Paper 2. Lipsky AM, Greenland S. Causal directed acyclic graphs.
@@ -261,28 +262,59 @@ by analysing exam marks under an assumed causal structure. Some comments:
 
 Comments or clarifications?
 
-Do you believe the DAG? 
-What might be the next research question for this area?
+Do you believe the DAG? \
+What might be the next research question for this area? \
 How would you do the study better?
 
 Any advice to gently introduce the causal framework into any field?
 
-
 # Paper 9. Herbert RD. Cohort studies of aetiology and prognosis: they're different.
 
+![](img/herbert2014.png){ width=63% }
 
 # Paper 9.
 
+* An 'association' between exposure and outcome is only useful when if it is causal or predictive
+* 'No causation without manipulation' means it is not possible to talk meaningfully about causal effects of an exposure unless it's clear how the exposure can be manipulated
+* Theory drives analysis of aetiology by suggesting
+  * plausible confounders
+  * if exposure-outcome relationships may be non-linear
+  * if there are interactions between exposures or
+  * if exposures are mediators
 
 # Discussion
 
+Comments or clarifications?
+
+How might including strong confounders in prognostic models improve generalisability? \
+When is a confounder 'strong'?
+
+Isn't the aim of prediction to estimate the expectation of the outcome in those with and without the predictor?
+(Which, in causal inference, is analogous to contrasting the outcomes in those with and without the exposure)
 
 # Paper 10. Haber et al. Causal and associational language in observational health research.
 
+* Retrieved RCT and Obs studies from high-ranking journals in health/medicine/epidemiology
+* Most interesting aims
+  * To identify words used to link relationships between exposures and outcomes (e.g. 'association', 'had higher')
+  * Qualitative analysed the strength of causality implied by these words
+
+* From 1275 (1170 Obs, 105 RCTs) were assessed by 3 reviewers; There were many more observational studies
+* The most common linking word in abstracts was 'association' (46%), followed by 'increase' (6%). Few studies used 'cause' (0.8%)
+* More than 50% of reviewers felt the word 'associate' carried some causal implication
+
+I.e. Using 'associate' to avoid the word 'cause' leads to more confusion in interpretation, than clarity
 
 # Paper 10.
 
+![](img/haber2022.png){ width=65% }
 
 # Discussion
+
+Comments or clarifications?
+
+What do you make of the findings?
+
+What might be the next research question? A language analysis in different fields?
 
 -->
