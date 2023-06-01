@@ -39,7 +39,6 @@ How are RCTs imperfect, and how are these limitations overcome?
 
 How else are observational data limited at allowing causal inference? Do these problems only affect observational studies?
 
-<!--
 # Paper 2. Lipsky AM, Greenland S. Causal directed acyclic graphs.
 
 A causal directed acyclic graph
@@ -75,6 +74,7 @@ Methods are needed to deal with selection bias.
 2. What have reviewers challenged when reviewing DAGs?
 3. How do you know a DAG is correct?
 
+<!--
 # Paper 3. Butler et al. Upper limb function but not proprioception is impaired in essential tremor.
 
 Causal mediation analysis is a technique to estimate to what extent the causal effect of
