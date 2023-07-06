@@ -74,50 +74,49 @@ Methods are needed to deal with selection bias.
 2. What have reviewers challenged when reviewing DAGs?
 3. How do you know a DAG is correct?
 
-<!--
 # Paper 3. Butler et al. Upper limb function but not proprioception is impaired in essential tremor.
 
 Causal mediation analysis is a technique to estimate to what extent the causal effect of
-an exposure (treatment) on an outcome is mediated through other paths
+an exposure on an outcome is mediated through other paths
 
-To conduct mediation analysis, plausible causal mechanisms are specified in a causal graph,
+To do mediation analysis, plausible causal mechanisms are specified in a causal graph,
 and adjustments are made for potential confounding.
 
-The analysis then partitions the average total effect of the exposure on outcome into an average effect acting through the mediator,
+The analysis then partitions the average total effect of the exposure on outcome 
+into an average effect acting through the mediator,
 and an average direct effect.
 
 # Paper 3.
 
 Fig 2 of paper shows separation of the total effect of essential tremor on physical function,
-into an indirect effect acting through proprioception, and a direct effect.
+into indirect effects through proprioception and tremor amplitude, and a direct effect.
 
-In this causal structure, the 2 mediators (proprioception and tremor amplitude) are causally dependent
+In this causal structure, the 2 mediators (proprioception, tremor amplitude) are causally dependent
 (i.e. they are connected by an arrow)
 
-* When mediators are causally dependent, the average causally mediated effect (ACME) assumes interactions between the primary mediator and the outcome are independent of the exposure (i.e. proprioception-function causal effects don't depend on levels of tremor)
+* When mediators are causally dependent, the average causally mediated effect (ACME) assumes interactions between the primary mediator and the outcome are independent of the exposure (i.e. causal effects of mediator on outcome don't depend on levels of exposure)
 * This assumption can't be verified using data, so
-* sensitivity analyses are performed to assess, if this assumption is violated, how prone to bias the ACME is.
+* sensitivity analyses are performed to assess, if this assumption is violated, to what extent the ACME is prone to bias.
 
-This study was the first causal mediation application in this field,
-and was a real advance over traditional approaches using correlations to infer causation.
+This study was the first application of causal mediation analysis in this field,
+and provided a better alternative to traditional approaches using correlations to infer causation.
 
 # Discussion
 
 Comments or clarifications?
 
-Interpretation of different causally mediated effects
-
-* Average causally mediated effect (ACME):
-* Average direct effect (ADE):
-* Total effect:
-* Average causally mediated effect in the treated (ACME treated):
-* Average causally mediated effect in the control (ACME control):
+* Total effect: Between-group difference of effect of exposure on outcome
+* Average causally mediated effect (ACME): Between-group difference of effect that acts through mediator
+* Average direct effect (ADE): Between-group difference of effect that does not act through mediator
+* Average causally mediated effect in the treated (ACME treated): Between-group difference of effect, only in the treated/exposed 
+* Average causally mediated effect in the control (ACME control): Between-group difference of effect, only in the controls
 
 What is the value of ACME control?
 
-We used R's `multimed` function in the `mediation` package; it's stable and has good documentation \
-What other approaches or software do people use? Structural equation modeling? 
+We used R's `multimed` function in the `mediation` package; it's stable and has good documentation 
+What other approaches or software do people use?
 
+<!--
 # Paper 4. Herbert RD. Research Note: Causal inference.
 
 Causal effects can be stated in terms of the potential outcomes framework (Rubin) or 

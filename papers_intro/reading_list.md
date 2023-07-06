@@ -20,5 +20,7 @@
 
 10. Haber NA, Wieten SE, Rohrer JM, Arah OA, Tennant PWG, Stuart EA, et al. Causal and associational language in observational health research: a systematic evaluation. American Journal of Epidemiology 2022;191(12):2084-97.
 
+11. Nuzzo JL, Finn HT, Herbert RD. Causal mediation analysis could resolve whether training-induced increases in muscle strength are mediated by muscle hypertrophy. Sports Medicine 2019;49(9):1309-15.
+
 
 Papers that are open access are held in this repository.
